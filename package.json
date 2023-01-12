@@ -1,0 +1,24 @@
+{
+  "name": "common-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smtp-password": "node scripts/aws-ses-smtp-password"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleh-melnychuk/common-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleh-melnychuk/common-scripts/issues"
+  },
+  "homepage": "https://github.com/oleh-melnychuk/common-scripts#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "utf8": "^3.0.0"
+  }
+}
